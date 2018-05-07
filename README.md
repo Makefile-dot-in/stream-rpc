@@ -13,9 +13,9 @@ This would call the **F**unction *Print* in the namespace *Example*, passing the
 
 The first letter of a line is an operation. After that comes the namespace, C++-like two colons, an event name or a function name, and a list of arguments delimited by a colon (:). So if we were to take our previous example and split it up it would look like this:
 
-          FExample::Print:"Hello, World!"
-          ^    ^        ^           ^
-   operation namespace function  argument
+           FExample::Print:"Hello, World!"
+           ^    ^        ^           ^
+    operation namespace function  argument
 
 Namespace and function names mustn't begin with a digit and can only contain digits and ASCII letters.
 
